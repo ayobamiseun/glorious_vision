@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
   <!-- animate css -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
