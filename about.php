@@ -7,8 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
 </head>
 <style>
+  body{overflow-x: hidden}
     .heading_container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,6 +49,9 @@
 
 .about_section .detail-box p {
   margin-top: 15px;
+  /* font-family: math; */
+  font-size: 17px;
+  text-align: justify;
 }
 
 .about_section .detail-box a {
@@ -77,24 +86,26 @@
 }
 </style>
 <body>
-<section class="about_section layout_padding-bottom panel green" style="background-color:#fff ;color:#000;" >
+<section class="about_section layout_padding-bottom panel green" style="background-color:#fff ;color:#000; padding-top:0px;" >
 
-    <div class="square-box">
+<!-- <div class="square-box">
       <img src="images/square.png" alt="">
-    </div>
+    </div> -->
     <div class="container" style="">
-    <h4>Who we are</h4>
+    <h4>About Us</h4>
         <div class="section-title">
         <span class="line line-green"></span>
 
         </div>
       <div class="row">
         <div class="col-md-6">
-          <div class="img-box">
+          <div class="img-box" data-aos="fade-up"
+     data-aos-duration="2000">
             <img src="images/worship.jpg" alt="">
           </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-up"
+     data-aos-duration="2000">
           <div class="detail-box">
             <div class="heading_container">
               <h2>
@@ -103,9 +114,7 @@
               
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in
-              some form, by injected humour, or randomised words
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam ut explicabo facilis expedita ea eius perferendis assumenda, esse nemo quam vitae odit. Cupiditate, veniam quod qui magni consequuntur quos iusto aliquid, officiis in repudiandae eum optio odio omnis iure molestias ea facilis earum magnam, aliquam voluptas mollitia commodi perferendis.
             </p>
             <a href="">
               Read More
@@ -114,6 +123,8 @@
         </div>
       </div>
     </div>
+</div>
+   
   </section>
 
  

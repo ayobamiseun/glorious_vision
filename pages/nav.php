@@ -143,16 +143,17 @@ h1{
 <body>
     <nav>
         <div class="logo">
-        <a href="index.html"> <img src="images/logo.png" alt="" height="60px"></a> 
+        <a href="../index.html"> <img src="../images/logo.png" alt="" height="60px"></a> 
         </div>
         <ul class="nav-links">
-            <li><a href="index.php">Home</a></li>
-            <li><a href="abouto.php">About</a></li>
+            <li><a href="../index.php">Home</a></li>
+            <li><a href="pages/abouto.php">About</a></li>
             <li><a href="#">Sermons</a></li>       
             <li><a href="#">Our Community</a></li>  
             <li><a href="#">Our Youth Ministry</a></li>  
             <li><a href="contact.php">Contact Us</a></li>  
             <li><a href="#">Blogs</a></li>  
+            <li><a href="../server/index.php">donate</a></li>  
         </ul>
         <div class="burger">
             <div class="line1"></div>

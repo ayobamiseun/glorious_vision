@@ -21,30 +21,15 @@ body {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
-  letter-spacing: -1px;
+  /* font-family: 'Inter', sans-serif; */
+  
   
   height: 100vh;
   
   margin: 0;
 }
 
-.hero {
-  background: url('images/chapel.jpg') no-repeat center center; opacity: 0.85;;
-  justify-content: center;
-  background-size: cover;
-  flex-direction: column;
-  text-align: center;
-  /* color: #fff; */
-  font-size: 20px;
-  border-radius: 10px;
-  align-items: center;
-  /* position: fixed; */
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  
-}
+
 
 
 

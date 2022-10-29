@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="a ssets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/variable.css">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -145,7 +145,7 @@
   }
 }
  </style>
- <?php include("pages/nav.php") ?>
+ <?php include("includes/header.php") ?>
 <main id="main" >
     <section id="contact" class="contact mb-5" >
       <div class="container" data-aos="flip-down" >
@@ -214,7 +214,7 @@
 
   </main>
   
-  <?php include("footer.php")?>
+  <?php include("./footer.php")?>
 
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

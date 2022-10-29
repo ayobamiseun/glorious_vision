@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-</head>
+
+<?php 
+// include('./includes/header.php');
+require_once './includes/header.php'
+?>
 <style>
 .breadcrumbs {
   padding: 170px 0 60px 0;
@@ -72,12 +65,47 @@ body {
 .rounded-circle {
     width: 300px;
   height: 200px;
-  border-radius: 50%;
+  /* border-radius: 80%; */
+}
+.section-title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #222222;
+  padding-bottom: 40px
+}
+
+.section-title h2::before,
+.section-title h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: #3498db;
+  display: inline-block;
+}
+
+.section-title h2::before {
+  margin: 0 15px 10px 0;
+}
+
+.section-title h2::after {
+  margin: 0 0 10px 15px;
+}
+
+.section-title p {
+  margin: 15px 0 0 0;
 }
 </style>
+
 <body>
-    <?php include('pages/nav.php') ?>
-<div class="breadcrumbs d-flex align-items-center" style="background-image: url('images/whoship1.jpg') ;">
+   
+<div class="breadcrumbs d-flex align-items-center" style="background-image: url('./images/whoship1.jpg') ;">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>About</h2>
@@ -92,8 +120,8 @@ body {
     <div class="intro">
 		<div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-12 heading-section  ftco-animate mb-1">
-            <span class="subheading">Welcome To Glorious Vision</span>
+          <div class="col-md-12 section-title  ftco-animate mb-1">
+            <h2 class="subheading">Welcome To Glorious Vision</h2>
             <!--<h2 class="mb-2">The smartest way to buy a home</h2>-->
 
           </div>
@@ -103,7 +131,7 @@ body {
           </div>-->
           <div class="col-md-12 wrap-about py-md-2 ftco-animate">
             <div class="heading-section p-md-1">
-              <h2 class="mb-4"></h2>
+              <h2 class="mb-1"></h2>
 
               <p  style="color: #333 !important; font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda nisi quia eaque. Unde incidunt optio velit obcaecati dolore aperiam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quas quasi quod ipsum, quisquam illo labore? Aliquam sapiente molestias omnis itaque, est sit libero distinctio tempora iste dolorem, unde repellendus?.</p>
               <p style="color: #333 !important; font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in ut rem pariatur aliquid fugiat Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti illo vero porro dolores beatae, quam quae officiis quibusdam a necessitatibus...</p>
@@ -138,27 +166,47 @@ body {
           <div class="col-12 text-center mb-5">
             <div class="row justify-content-center">
               <div class="col-lg-6">
-                <h2 class="display-4">About Our</h2>
+                <h2 class="display-4">Our Ministers</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint sed, fugit distinctio ad eius itaque deserunt doloribus harum excepturi laudantium sit officiis et eaque blanditiis. Dolore natus excepturi recusandae.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 text-center mb-5">
-            <img src="assets/gallery/306971223_774662310417075_6606555459401130760_n.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Wade Warren</h4>
-            <span class="d-block mb-3 text-uppercase">Pastor</span>
-              </div>
+            <img src="assets/img/pssss.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>Pastor Oludare Adegunloye</h4>
+            <span class="d-block mb-3 text-uppercase">Senior Pastor</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div>
           <div class="col-lg-4 text-center mb-5">
-            <img src="./assets/gallery/279786739_685532905996683_3455740235518302737_n.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <img src="assets/img/adegunloye.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>Pastor Mrs ruth Adegunloye</h4>
+            <span class="d-block mb-3 text-uppercase">Pastor</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div>
+          <div class="col-lg-4 text-center mb-5">
+            <img src="assets/img/chr.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>Evangelist Christiana Ifedayo</h4>
+            <span class="d-block mb-3 text-uppercase">Pastor</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div>
+          <div class="col-lg-4 text-center mb-5">
+            <img src="assets/img/mathe.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>Deaconess Vulyewa Mathe</h4>
+            <span class="d-block mb-3 text-uppercase">Deaconess</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div>
+          <div class="col-lg-4 text-center mb-5">
+            <img src="assets/img/samuel.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
+            <h4>Deacon Samuel Ifedayo</h4>
+            <span class="d-block mb-3 text-uppercase">Deacon</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div>
+          <!-- <div class="col-lg-4 text-center mb-5">
+            <img src="assets/img/person-5.jpg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Cameron Williamson</h4>
-            <span class="d-block mb-3 text-uppercase">Pastor </span>
-             </div>
-         
-          <div class="col-lg-4 text-center mb-5">
-            <img src="assets/gallery/306971223_774662310417075_6606555459401130760_n.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
-            <h4>Jane Cooper</h4>
-            <span class="d-block mb-3 text-uppercase">Pastor</span>
-  </div>
+            <span class="d-block mb-3 text-uppercase">P</span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+          </div> -->
           <!-- <div class="col-lg-4 text-center mb-5">
             <img src="assets/gallery/306971223_774662310417075_6606555459401130760_n.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Cameron Williamson</h4>

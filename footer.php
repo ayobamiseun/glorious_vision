@@ -499,10 +499,10 @@
                     <div class="col" style="text-align: center;">
                         <div class="footer_social">
                             <ul class="d-flex flex-row align-items-center justify-content-center">
-                                <li><a href="https://www.facebook.com/superfmradio96.3/" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.instagram.com/superfm96.3/" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
-                                <li><a href="https://soundcloud.com/user-499370435" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
-                                <li><a href="https://soundcloud.com/user-499370435" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="/" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
 

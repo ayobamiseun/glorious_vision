@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <style>
     /* 12columns.css | Created by Katherine Kato | Released under the MIT license */
 /* GitHub: https://kathykato.github.io/12columns/ */
 @import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700");
 .container {
-  margin: auto;
+  /* margin: auto;
   padding: 0 1rem;
   max-width: 71.25rem;
-  width: 100%;
+  width: 100%; */
 }
 
 .grid {
@@ -677,9 +678,9 @@ footer {
 <section class="gallery">
   <div class="container">
     <div class="grid">
-      <div class="column-xs-12 column-md-4">
+      <div class="column-xs-12 column-md-4" data-aos="fade-up" data-aos-delay="100">
         <figure class="img-container">
-          <img src="assets/gallery/woman.jpeg" />
+          <img src="assets/gallery/woman.jpeg"  />
           <figcaption class="img-content">
             <h2 class="title">Revival sunday</h2>
             <!-- <h3 class="category">Showcase</h3> -->
@@ -690,7 +691,7 @@ footer {
           </span>
         </figure>
       </div>
-      <div class="column-xs-12 column-md-4">
+      <div class="column-xs-12 column-md-4" data-aos="fade-up"data-aos-delay="200" >
         <figure class="img-container">
           <img src="assets/gallery/praisee.jpeg" />
           <figcaption class="img-content">
@@ -702,7 +703,7 @@ footer {
           </span>
         </figure>
       </div>
-      <div class="column-xs-12 column-md-4">
+      <div class="column-xs-12 column-md-4" data-aos="fade-up" data-aos-delay="300">
         <figure class="img-container">
           <img src="assets/gallery/311154615_798340524715920_7760245634733993370_n.jpeg">
           <figcaption class="img-content">
@@ -715,50 +716,51 @@ footer {
         </figure>
       </div>
      
-      <div class="column-xs-12 column-md-4">
+      <!-- <div class="column-xs-12 column-md-4" data-aos="fade-up">
         <figure class="img-container">
           <img src="assets/gallery/pryy.jpeg" />
           <figcaption class="img-content">
-            <!-- <h2 class="title">Smart Watch</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Smart Watch</h2>
+            <h3 class="category">Showcase</h3>
           </figcaption>
           <span class="img-content-hover">
-            <!-- <h2 class="title">Smart Watch</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Smart Watch</h2>
+            <h3 class="category">Showcase</h3>
           </span>
         </figure>
-      </div>
-      <div class="column-xs-12 column-md-4">
+      </div> -->
+      <!-- <div class="column-xs-12 column-md-4" data-aos="fade-up">
         <figure class="img-container">
           <img src="assets/gallery/keyb.jpeg" />
           <figcaption class="img-content">
-            <!-- <h2 class="title">Camera Film</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Camera Film</h2>
+            <h3 class="category">Showcase</h3>
           </figcaption>
           <span class="img-content-hover">
-            <!-- <h2 class="title">Camera Film</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Camera Film</h2>
+            <h3 class="category">Showcase</h3>
           </span>
         </figure>
-      </div>
-      <div class="column-xs-12 column-md-4">
+      </div> -->
+      <!-- <div class="column-xs-12 column-md-4" data-aos="fade-up">
         <figure class="img-container">
           <img src="assets/gallery/pry.jpeg">
           <figcaption class="img-content">
-            <!-- <h2 class="title">Coffee</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Coffee</h2>
+            <h3 class="category">Showcase</h3>
           </figcaption>
           <span class="img-content-hover">
-            <!-- <h2 class="title">Coffee</h2> -->
-            <!-- <h3 class="category">Showcase</h3> -->
+            <h2 class="title">Coffee</h2>
+            <h3 class="category">Showcase</h3>
           </span>
         </figure>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    AOS.init();
     const imgContent = document.querySelectorAll('.img-content-hover');
 
 function showImgContent(e) {

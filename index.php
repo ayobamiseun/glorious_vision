@@ -14,7 +14,8 @@
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 </head>
@@ -22,23 +23,27 @@
 <body>
 
   <?php
-  include('public/nav.php');
+  // include('public/nav.php');
+  include("./includes/header.php");
   include("./pages/land.php");
 
 
-  include("./section2.php");
+  include("./pages/who-we-are.php");
   include("./section3.php");
-  include("./image.php");
+  include("./img.php");
   include("./about.php");
   include("./join.php");
-  include("footer.php");
+  include("./includes/footer.php");
 
   ?>
 </body>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=cahcebustin"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 <script src="https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
+    AOS.init();
+    
   gsap.registerPlugin(ScrollTrigger);
 
 
@@ -201,6 +206,7 @@
     });
   });
 
+ 
 </script>
 
 </html>

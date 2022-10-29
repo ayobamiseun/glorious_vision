@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <!-- <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
 </head>
 
 <style>
@@ -14,10 +14,11 @@
   /* background: url("images/worship.jpg") center center no-repeat; */
   /* background-size: cover; */
   background-color: grey;
-  padding: 60px 0;
+  /* padding: 60px 0; */
   position: relative;
   margin-top: 50px;
   /* height:100vh; */
+  font-family: ;
 }
 .chefs::before {
   content: "";
@@ -129,9 +130,9 @@
 
         <div class="row ">
 
-          <div class="col-lg-4 col-md-6 gs_reveal gs_reveal_fromLeft">
+          <div class="col-lg-4 col-md-6 gs_reveal ">
             <div class="member">
-              <div class="pic"><img src="images/Free-Printable-Bible-Study-Lessons-with-Questions-and-Answers.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="images/bibleprint.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Our Ministry</h4>
                 <!-- <span>Master Chef</span>
@@ -161,7 +162,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 gs_reveal gs_reveal_fromRight" >
+          <div class="col-lg-4 col-md-6 gs_reveal" >
             <div class="member">
               <div class="pic"><img src="images/family.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">

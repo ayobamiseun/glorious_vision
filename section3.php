@@ -9,6 +9,7 @@
   <!-- fonts awesome -->
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <!-- animate css -->
   <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -16,6 +17,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 </head>
 <style>
+ body{overflow-x: hidden}
   .featured-services .icon-box {
     padding: 30px;
     position: relative;
@@ -91,13 +93,7 @@
     position: relative;
   }
 
-  .featured-services .description {
-    font-size: 15px;
-    line-height: 28px;
-    margin-bottom: 0;
-    text-align: center;
-  }
-
+  
   .featured-services .icon-box:hover .title a,
   .featured-services .icon-box:hover .description {
     color: #fff;
@@ -117,7 +113,9 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
             <div class="icon"><i class="bi bi-book"></i></div>
             <h4 class="title"><a href="">Exortation</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit optio doloremque quia dolorum voluptates magnam ex dolore, velit dignissimos culpa!
+            </p>
           </div>
         </div>
 
@@ -125,7 +123,7 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-music-note-beamed"></i></div>
             <h4 class="title"><a href="">Praise worship</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor molestias, quisquam cumque doloribus libero excepturi!</p>
           </div>
         </div>
 
@@ -133,7 +131,7 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-plus-square-fill"></i></div>
             <h4 class="title"><a href="">Prayer</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla et suscipit iure ullam fuga? Odit, reprehenderit. Accusamus.</p>
           </div>
         </div>
 
@@ -141,7 +139,7 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="fas fa-dna"></i></div>
             <h4 class="title"><a href="">couseling</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nisi, corporis temporibus debitis dolor consequuntur? Numquam!</p>
           </div>
         </div>
 
