@@ -101,7 +101,7 @@
 }
 .footer_social ul li a i
 {
-	font-size: 18px;
+	/* font-size: 18px; */
 	color: #FFFFFF;
 	line-height: 43px;
 	-webkit-transition: all 200ms ease;
@@ -109,6 +109,10 @@
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+	font-size: 13px;
+    font-weight: 700;
+    line-height: 1.5;
+    font-family:'Aeonik' sans-serif;
 }
 .footer_social ul li:hover
 {
@@ -164,7 +168,7 @@
 {
 	font-size: 16px;
 	font-weight: 500;
-	color: #FFFFFF;
+	color: #000;
 	line-height: 1.2;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;

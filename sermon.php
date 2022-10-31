@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <!-- <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  
 </head>
 <style>
     .furnitures_section {
@@ -32,15 +33,7 @@
     padding-top: 20px;
   }
 }
-.breadcrumbs {
-  padding: 170px 0 60px 0;
-  min-height: 30vh;
-  position: relative;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: math;
-}
+
 .our_text{
     width: 100%;
     float: left;
@@ -59,40 +52,8 @@
     margin-top: 10px;
 }
 
-.section-title {
-  text-align: center;
-  padding-bottom: 30px;
-}
 
-.section-title h2 {
-  font-size: 32px;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  color: #222222;
-  padding-bottom: 40px
-}
 
-.section-title h2::before,
-.section-title h2::after {
-  content: "";
-  width: 50px;
-  height: 2px;
-  background: #3498db;
-  display: inline-block;
-}
-
-.section-title h2::before {
-  margin: 0 15px 10px 0;
-}
-
-.section-title h2::after {
-  margin: 0 0 10px 15px;
-}
-
-.section-title p {
-  margin: 15px 0 0 0;
-}
 </style>
 <body>
     <?php include("includes/header.php") ?>

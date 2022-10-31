@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
   <link rel="stylesheet" href="./assets/css/style.css">
   <!-- animate css -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -23,13 +23,21 @@
     position: relative;
     overflow: hidden;
     background: #fff;
-    box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,rgba(240, 46, 170, 0.05) -25px 25px;px;
     transition: all 0.3s ease-in-out;
     border-radius: 8px;
     z-index: 1;
 
   }
-
+  .line {
+  width: 100%;
+  max-width: 800px;
+  height: 8px;
+  margin: 0 0 10px 0;
+  position: relative;
+  display: inline-block;
+  background-color: slategray;
+}
   .featured-services .icon-box::before {
     content: "";
     position: absolute;
@@ -52,13 +60,13 @@
     margin-bottom: 15px;
     align-items: center;
   }
-
+ 
   .featured-services .icon i {
     font-size: 48px;
     line-height: 1;
-    color: slategray;
+    color: skyblue;
     transition: all 0.3s ease-in-out;
-    margin-left: 39%;
+    margin-left: 40%;
   }
 
   .section-bg {
@@ -82,6 +90,7 @@
     margin-bottom: 15px;
     font-size: 18px;
     text-align: center;
+    letter-spacing: 0.2em;
   }
 
   .featured-services .title a {
@@ -92,8 +101,33 @@
   .sec {
     position: relative;
   }
-
+  @media screen and (max-width:800px) {
+    .featured-services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: skyblue;
+    transition: all 0.3s ease-in-out;
+    margin-left: 44%;
+  }}
+  @media screen and (max-width:600px) {
+    .featured-services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: skyblue;
+    transition: all 0.3s ease-in-out;
+    margin-left: 44%;
+  }
+}
+  @media screen and (max-width:500px) {
+    .featured-services .icon i {
+    font-size: 48px;
+    line-height: 1;
+    color: skyblue;
+    transition: all 0.3s ease-in-out;
+    margin-left: 42%;
+  }
   
+  }
   .featured-services .icon-box:hover .title a,
   .featured-services .icon-box:hover .description {
     color: #fff;

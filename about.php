@@ -7,10 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  
 
 </head>
 <style>
@@ -60,11 +61,11 @@
   background-color: whitesmoke;
   text-decoration: none;
   color: #000;
-  font-weight: 600;
+  font-weight: 500;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid lightsteelblue;
-  border-radius: 25px;
+  border-radius: 10px;
   margin-top: 25px;
 }
 
@@ -86,13 +87,13 @@
 }
 </style>
 <body>
-<section class="about_section layout_padding-bottom panel green" style="background-color:#fff ;color:#000; padding-top:0px;" >
+<section class="about_section layout_padding-bottom panel green" style="background-color:#fff ;color:#555555;; padding-top:0px;" >
 
 <!-- <div class="square-box">
       <img src="images/square.png" alt="">
     </div> -->
     <div class="container" style="">
-    <h4>About Us</h4>
+    <h4 class="h4-title">About  <span> Us</span></h4>
         <div class="section-title">
         <span class="line line-green"></span>
 
@@ -116,7 +117,7 @@
             <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ullam ut explicabo facilis expedita ea eius perferendis assumenda, esse nemo quam vitae odit. Cupiditate, veniam quod qui magni consequuntur quos iusto aliquid, officiis in repudiandae eum optio odio omnis iure molestias ea facilis earum magnam, aliquam voluptas mollitia commodi perferendis.
             </p>
-            <a href="">
+            <a href="abouto.php">
               Read More
             </a>
           </div>

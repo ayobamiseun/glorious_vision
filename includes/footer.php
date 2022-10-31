@@ -30,9 +30,19 @@
 .footer_title
 {
 	font-size: 24px;
-	color: rgba(255,255,255,0.3);
-	font-weight: 500;
+	color: darkgray;
+	font-weight: 700;
 	line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-family:'Aeonik' sans-serif;
+    
+}
+.location-p{
+    color: #eee;
+    letter-spacing: 0.09rem;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family:'Aeonik' sans-serif;
 }
 .footer_list
 {
@@ -71,6 +81,7 @@
 	font-weight: 500;
 	padding-left: 6px;
 	padding-right: 7px;
+    font-family:'Aeonik' sans-serif;
 }
 .footer_social_row
 {
@@ -110,6 +121,7 @@
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+    font-family:'Aeonik' sans-serif;
 }
 .footer_social ul li:hover
 {
@@ -163,15 +175,19 @@
 }
 .latest_title
 {
-	font-size: 16px;
-	font-weight: 500;
-	color: #FFFFFF;
+	
+	color: #eee;
 	line-height: 1.2;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.09rem;
+    font-family:'Aeonik' sans-serif;
 }
 .latest_title_container:hover .latest_title
 {
@@ -213,6 +229,7 @@
     }
     footer h3 {
         font-size: 1rem;
+        font-family:'Aeonik' sans-serif;
     }
     footer p,
     footer ul li,
@@ -220,6 +237,8 @@
         font-size: 0.8rem;
         line-height: 26px;
         letter-spacing: 1px;
+        font-family:'Aeonik' sans-serif;
+        
     }
     .about-in h5.card-title {
         font-size: 0.9em;
@@ -239,19 +258,30 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border: none;
+  font-size: 15px;
+  letter-spacing: 0.09rem;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family:'Aeonik' sans-serif;
 }
+
 .news-letter-form input[type="submit"] {
   width: auto;
   border: none;
   background-color: slategray;
   padding: 9px 30px;
+  margin-top: 20px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  color: #ffffff;
-  margin-top: 10px;
+  color: #eee;
+  font-size: 15px;
+  letter-spacing: 0.09rem;
+    font-weight: 600;
+    line-height: 1.5;
+    font-family:'Aeonik' sans-serif;
 }
 /* end of news letter */
 @media(max-width:991px) {
@@ -278,6 +308,14 @@
   .foot p {
     font-size: 12px;
   } 
+}
+.form-1 p {
+    color: #c2fbd7;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.09rem;
+    font-family:'Aeonik' sans-serif;
 }
 
 .button-33 {
@@ -321,9 +359,9 @@
 			<div class="row footer_content_row">
 				
 				<!-- Tags -->
-				<div class="col-lg-3">
+				<div class="col-lg-3 ">
 					<div class="footer_title">Location</div>
-					<p class="mt-5" style="color: #eee !important;">
+					<p class="mt-5 location-p" style="" >
                     126 Westmuir Street, G31 5BW Glasgow, UK</p>
 					<div id="hero">
                     <a href="./contact.php" class="btn-book">Contact Us</a>
@@ -493,7 +531,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3">
+				<div class="col-lg-3 form-1">
 					<div class="footer_title">Stay Connected</div>
                     <p style="color: #eee; margin-top:20px;">Join Our Mailing List</p>
 					<div class="latest_container">

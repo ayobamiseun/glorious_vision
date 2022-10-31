@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
-  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
-  <!-- animate css -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+ 
 
 </head>
 <style>
@@ -109,7 +99,10 @@
           <div class="col-lg-8 text-center">
             <h3>Join Our Bible Study Group!</h3>
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <a href="contact.php">
             <button class="button-33" role="button">Join Today</button>
+            </a>
+           
           </div>
         </div>
 

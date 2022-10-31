@@ -35,7 +35,10 @@
   include("./join.php");
   include("./includes/footer.php");
 
+  include('./includes/top.php')
   ?>
+
+
 </body>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=cahcebustin"></script>
 <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
@@ -47,9 +50,7 @@
   gsap.registerPlugin(ScrollTrigger);
 
 
-
-
-
+ 
 
   // --- RED PANEL ---
   gsap.from(".line-1", {

@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
     <!-- <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
 </head>
@@ -54,15 +56,7 @@
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
 }
-.chefs .member h4 {
-  font-weight: 500;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #6c665c;
-  position: relative;
-  padding-bottom: 10px;
-  font-family: "Poppins", sans-serif;
-}
+
 .chefs .member h4::after {
   content: "";
   position: absolute;
@@ -122,7 +116,7 @@
 <body>
 <section id="chefs" class="chefs panel">
       <div class="container" style="padding-top:20px">
-  <h4>Who we are</h4>
+  <h4 class="h4-title">Who  We <span>Are </span></h4>
         <div class="section-title">
         <span class="line line-1">
 
@@ -132,7 +126,7 @@
 
           <div class="col-lg-4 col-md-6 gs_reveal ">
             <div class="member">
-              <div class="pic"><img src="images/bibleprint.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="images/bible2.jpeg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Our Ministry</h4>
                 <!-- <span>Master Chef</span>

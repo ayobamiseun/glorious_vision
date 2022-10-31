@@ -38,10 +38,12 @@ body{
         <ul class="nav-links">
             <li><a href="./index.php">Home</a></li>
             <li><a href="./abouto.php">About</a></li>
-            <li><a href="./sermon.php">Sermons</a></li>       
+
+            <li><a href="./sermon.php">Sermons</a></li>      
+            <li><a href="./sermon.php">Pastor's Message</a></li>    
             <li><a href="#">Our Community</a></li>  
             <li><a href="#">Our Youth Ministry</a></li>  
-            <li><a href="./contact.php">Contact Us</a></li>  
+            <li><a href="./contact.php">Contact</a></li>  
             <!-- <li><a href="#">Blogs</a></li>   -->
             <li><a href="./giving.php" class="button-51">
             Giving
