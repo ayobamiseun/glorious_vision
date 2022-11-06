@@ -32,6 +32,7 @@
   include("./section3.php");
   include("./img.php");
   include("./about.php");
+
   include("./join.php");
   include("./includes/footer.php");
 

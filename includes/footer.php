@@ -42,6 +42,8 @@
     letter-spacing: 0.09rem;
     font-weight: 600;
     line-height: 1.5;
+    font-size: 13px;
+    
     font-family:'Aeonik' sans-serif;
 }
 .footer_list
@@ -183,7 +185,7 @@
 	-ms-transition: all 200ms ease;
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.09rem;
@@ -311,7 +313,7 @@
 }
 .form-1 p {
     color: #c2fbd7;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: 0.09rem;

@@ -1,3 +1,32 @@
+<?php 
+
+$message_sent = false;
+
+if (isset($_POST['email']) && $_POST['email'] != "") {
+
+  if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+    ini_set( 'display_errors', 1 );
+    error_reporting( E_ALL );
+    $userName = $_POST['name'];
+    $userEmail = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    
+    $to = 'adamssmithsamuel@gmail.com';
+    $body = "";
+    
+    $body = "FROM :  ".$userName." /r/n/";
+    $body =  "EMAIL :  ".$userEmail." /r/n/";
+    $body =  "MESSAGE :  ".$message." /r/n/";
+     
+    // mail($to, $subject, $body); 
+  
+  }
+  $message_sent = true;
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,13 +173,81 @@
     margin-top: 110px !important;
   }
 }
+/* Button */
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
  </style>
  <?php include("includes/header.php") ?>
+
+
 <main id="main" >
     <section id="contact" class="contact mb-5" >
-      <div class="container" data-aos="flip-down" >
+      < class="container" data-aos="flip-down" >
+<?php 
+  if ($message_sent):
+?>
+<h1 style="padding-top:200px ;">Thanks  for the message we will get in touch </h1>
 
-        <div class="row">
+<!-- HTML !-->
+      <div style="display: flex;">
+      <div style="margin: auto;">
+      <a href="index.php" style="text-decoration: none; color:#36395A;">
+      <button class="button-30" role="button">Home Page</button>
+      </a>
+     
+      </div>
+    
+      </div>
+
+
+
+
+<?php
+ else:
+ ?> 
+       <div class="row">
           <div class="col-lg-12 text-center mb-5 cont" style="margin-top: 80px;">
             <h1 class="page-title">Contact us</h1>
           </div>
@@ -185,7 +282,7 @@
         </div>
 
         <div class="form mt-5">
-          <form action="contactinc.php" method="post" role="form" class="php-email-form">
+          <form action="contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -208,7 +305,9 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div><!-- End Contact Form -->
-
+<?php 
+endif;
+ ?>
       </div>
     </section>
 

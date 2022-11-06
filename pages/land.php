@@ -31,7 +31,11 @@ body {
 
 
 
-
+@media screen and (max-width:500px) {
+  .hero .sub-hero {
+    padding-top: 75px;
+  }
+}
 
 </style>
 <body>
@@ -39,8 +43,12 @@ body {
 
 <section class="panel">
 <div class="hero">
+  <div class="sub-hero">
+    
   <h1>Welcome  <span style="color: snow;">To Glorious</span> Vision Ministry</h1>
   <h3 style="margin-bottom: 16px;"> Glasgow</h3>
+  </div>
+ 
   <!-- <h3 style="margin-bottom: 16px;">Sawari Ogo Mi</h3> -->
   <div id="hero" class="animate__animated animate__backInUp animate__delay-2s">
         <a href="abouto.php" class="btn-menu"><i class="fa-solid fa-circle-info" style="margin-right: 9px;"></i> About Us</a>

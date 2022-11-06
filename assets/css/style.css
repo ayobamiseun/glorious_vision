@@ -384,6 +384,7 @@ width: 185px;
   .hero{
     height: 80vh
   }
+ 
   .hero h1{
   font-size: 36px;
   font-family: 'Aeonik' sans-serif !important;
@@ -399,6 +400,11 @@ width: 185px;
 
 }
 
+@media screen and (max-width:300px) {
+  .sub-hero {
+    padding-top: 75px;
+  }
+}
 /* end of hero section */
 .line {
   width: 100%;
