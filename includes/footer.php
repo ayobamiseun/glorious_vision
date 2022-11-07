@@ -366,7 +366,7 @@
 					<p class="mt-5 location-p" style="" >
                     126 Westmuir Street, G31 5BW Glasgow, UK</p>
 					<div id="hero">
-                    <a href="./contact.php" class="btn-book">Contact Us</a>
+                    <a href="./contact.php" class="btn-book" target="_blank" ref="noreferrer">Contact Us</a>
                     </div>
 					
 				</div>
