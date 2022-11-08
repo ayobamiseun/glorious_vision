@@ -333,7 +333,7 @@
         text-decoration: none;
         transition: all 250ms;
         border: 0;
-        font-size: 16px;
+        font-size: 17px;
         user-select: none;
         -webkit-user-select: none;
         touch-action: manipulation;
