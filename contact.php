@@ -335,6 +335,18 @@ endif;
     aos_init();
   });
 });
+var form = document.getElementsByClassName("form-control");
+for(var i = 0; i < form.length; i++ ) {
+  form[i].style.backgroundColor = "red";
+}
+
+
+var info = document.getElementsByClassName("info-item") 
+console.log(info)
+for(var i = 0; i < info.length; i++) {
+  info[i].style.backgroundColor = "blue";
+}
+console.log(document.all)
   </script>
 </body>
 </html>
