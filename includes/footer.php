@@ -1,4 +1,30 @@
+<?php
+include './includes/connect.php';
+?>
+<?php
+ini_set ('display_errors', 1);
+ini_set ('display_startup_errors', 1);
+error_reporting (E_ALL);
+$news = "";
+if( isset( $_POST['news'])) {
+  $news = $_REQUEST['news']; 
 
+// $news =  $_REQUEST['news'];
+
+// Performing insert query execution
+// here our table name is college
+$sql = "INSERT INTO newsletter (email) VALUE ('$news')";
+
+if(mysqli_query($conn, $sql)){
+  // header("index.php");
+} else{
+  echo "ERROR: Hush! Sorry $sql. " 
+      . mysqli_error($conn);
+}
+}
+// Close co$conection
+mysqli_close($conn);
+?>
 <style>
 	
 	.footer
@@ -541,9 +567,9 @@
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-							<form class="news-letter-form">
-                  <input type="email" name="news-email" id="news-email" placeholder="Your email address">
-                  <input type="submit" value="Send">
+							<form class="news-letter-form" action="#" method="post">
+                  <input type="email" name="news" id="news-email" required placeholder="Your email address">
+                  <input type="submit" value="Send"  name='submit' >
                 </form>
 							</div>
 							
@@ -562,7 +588,7 @@
                 <div class="row footer_social_row">
                     <div class="col" style="text-align: center;">
                         <div class="footer_social">
-                            <ul class="d-flex flex-row align-items-center justify-content-center">
+                            <ul class="d-flex flex-row align-items-center justify-content-center" style="list-style-type: none;  ">
                                 <li><a href="/" target="_blank"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
                                 <li><a href="" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>

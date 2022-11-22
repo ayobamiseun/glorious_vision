@@ -1,5 +1,4 @@
 <?php 
-
 $message_sent = false;
 
 if (isset($_POST['email']) && $_POST['email'] != "") {
@@ -40,6 +39,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
   <link rel="stylesheet" href="assets/css/variable.css">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 <body>
     
@@ -224,7 +224,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
 
 <main id="main" >
     <section id="contact" class="contact mb-5" >
-      < class="container" data-aos="flip-down" >
+      <div class="container" data-aos="zoom-in-up" >
 <?php 
   if ($message_sent):
 ?>
@@ -267,7 +267,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
             <div class="info-item info-item-borders">
               <i class="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p><a href="tel:+155895548855">+1 5589 55488 55</a></p>
+              <p style="text-align: center;"><a href="tel:+44895548855">+1 5589 55488 55</a></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -275,7 +275,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
             <div class="info-item">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p><a href="mailto:info@example.com">info@example.com</a></p>
+              <p  style="text-align: center;"><a href="mailto:info@example.com">info@example.com</a></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -314,6 +314,7 @@ endif;
   </main>
   
   <?php include("./footer.php")?>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>

@@ -1,7 +1,11 @@
 <?php
 include('./includes/header.php');
 // require_once './includes/header.php'
+
 ?>
+<link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
+ <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 <style>
     .breadcrumbs {
         padding: 170px 0 60px 0;
@@ -11,6 +15,7 @@ include('./includes/header.php');
         background-position: center;
         background-repeat: no-repeat;
         font-family: math;
+      
     }
 
     body {
@@ -62,7 +67,22 @@ include('./includes/header.php');
         background-size: cover;
         padding: 100px 0;
     }
+ .giving-text {
+    font-size:18px;
+    font-family: 'Aeonik' sans-serif !important ;
+    font-weight:400;
+    
+ }
 
+ @media  only screen and (max-width: 600px) {
+    .giving-text {
+    font-size:14px;
+    font-family: 'Aeonik' sans-serif !important ;
+    font-weight:400;
+   
+    
+ }
+ }
     .call-to-action {
         /* background: url("images/worship.jpg") center center no-repeat; */
         /* background-size: cover; */
@@ -167,11 +187,11 @@ include('./includes/header.php');
     </div>
 
     <section id="call-to-action" class="call-to-action">
-        <div class="container" data-aos="zoom-out">
+        <div class="container" data-aos="zoom-out"  data-aos-duration="3000">
 
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center">
-                    <h5 style="text-align:justify;">        In Glorious Vision, we give not out of compulsion or fear but a desire to see the gospel prosper in our day. Partner with us today. Put your money where your faith is.
+                    <h5 style="text-align:justify;" class="giving-text">        In Glorious Vision, we give not out of compulsion or fear but a desire to see the gospel prosper in our day. Partner with us today. Put your money where your faith is.
 </h5>
                     <!-- <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
 
@@ -192,5 +212,11 @@ include('./includes/header.php');
 
         </div>
     </section>
+    
 
     <?php include('./includes/footer.php') ?>
+
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script>
+          AOS.init();
+    </script>

@@ -3,7 +3,8 @@
 // include('./includes/header.php');
 require_once './includes/header.php'
 ?>
-
+<link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
 
 <body>
    
@@ -31,12 +32,18 @@ require_once './includes/header.php'
         <div class="row no-gutters">
           <!--<div class="col-md-6 p-md-5 img img-21 d-flex justify-content-center align-items-center" style="background: url(images/superfmlogo.png) center center; background-size: cover;: ">
           </div>-->
-          <div class="col-md-12 wrap-about py-md-2 ftco-animate">
+          <div class="col-md-12 wrap-about py-md-2 ftco-animate" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <div class="heading-section p-md-1">
               <h2 class="mb-1"></h2>
 
-              <p  style="color: #333 !important; font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda nisi quia eaque. Unde incidunt optio velit obcaecati dolore aperiam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quas quasi quod ipsum, quisquam illo labore? Aliquam sapiente molestias omnis itaque, est sit libero distinctio tempora iste dolorem, unde repellendus?.</p>
-              <p style="color: #333 !important; font-size: 17px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in ut rem pariatur aliquid fugiat Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti illo vero porro dolores beatae, quam quae officiis quibusdam a necessitatibus...</p>
+              <p  style="color: #333 !important; font-size: 17px;"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda nisi quia eaque. Unde incidunt optio velit obcaecati dolore aperiam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quas quasi quod ipsum, quisquam illo labore? Aliquam sapiente molestias omnis itaque, est sit libero distinctio tempora iste dolorem, unde repellendus?.</p>
+              <p style="color: #333 !important; font-size: 17px;"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in ut rem pariatur aliquid fugiat Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti illo vero porro dolores beatae, quam quae officiis quibusdam a necessitatibus...</p>
             </div>
           </div>
         </div>
@@ -47,14 +54,18 @@ require_once './includes/header.php'
 
            <div class="col-md-6">
               <h3>Mission</h3>
-              <p>
+              <p  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
                 To Provide in an increasingly profitable manner, Radio broadcast service that will inform, inspire and Influencia all individuals in its coverage area and the world at large to live successful, meaningful and impactful lives.
               </p>
            </div>
 
            <div class="col-md-6">
               <h3>Vision</h3>
-              <p>
+              <p  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
                 To be the most valued, vital and vibrant media platforms driving and promoting positive family values and creating successful individuals and success in it's coverage area and the world at large.
               </p>
            </div>
@@ -73,31 +84,41 @@ require_once './includes/header.php'
               </div>
             </div>
           </div>
-          <div class="col-lg-4 text-center mb-5">
+          <div class="col-lg-4 text-center mb-5" data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <img src="assets/img/pssss.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Pastor Oludare Adegunloye</h4>
             <span class="d-block mb-3 text-uppercase">Senior Pastor</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
           </div>
-          <div class="col-lg-4 text-center mb-5">
+          <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <img src="assets/img/adegunloye.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Pastor Mrs ruth Adegunloye</h4>
             <span class="d-block mb-3 text-uppercase">Pastor</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
           </div>
-          <div class="col-lg-4 text-center mb-5">
+          <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <img src="assets/img/chr.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Evangelist Christiana Ifedayo</h4>
             <span class="d-block mb-3 text-uppercase">Pastor</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
           </div>
-          <div class="col-lg-4 text-center mb-5">
+          <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <img src="assets/img/mathe.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Deaconess Vulyewa Mathe</h4>
             <span class="d-block mb-3 text-uppercase">Deaconess</span>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
           </div>
-          <div class="col-lg-4 text-center mb-5">
+          <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500">
             <img src="assets/img/samuel.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Deacon Samuel Ifedayo</h4>
             <span class="d-block mb-3 text-uppercase">Deacon</span>
@@ -118,6 +139,10 @@ require_once './includes/header.php'
         </div>
       </div>
     </section>
-    <?php include('footer.php') ?>
+    <?php include('./includes/footer.php') ?>
 </body>
+<script src="assets/vendor/aos/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
