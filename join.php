@@ -6,9 +6,6 @@
 </head>
 <style>
     .call-to-action {
-  /* background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8));
-   */
-  /* background: lightgray; */
   background: #f5f6f7;
     
   background-size: cover;
@@ -16,8 +13,8 @@
 }
 
 .call-to-action {
-  /* background: url("images/worship.jpg") center center no-repeat; */
-  /* background-size: cover; */
+  background: url("images/worship.jpg") center center no-repeat;
+  background-size: cover;
   /* background-color: grey; */
   padding: 60px 0;
   position: relative;

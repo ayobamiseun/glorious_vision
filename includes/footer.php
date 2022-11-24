@@ -280,6 +280,7 @@ mysqli_close($conn);
 .news-letter-form input {
   width: 100%;
   padding: 12px 25px;
+  background-color: snow;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -346,30 +347,59 @@ mysqli_close($conn);
     font-family:'Aeonik' sans-serif;
 }
 
-.button-33 {
-        background-color: #c2fbd7;
-        border-radius: 100px;
-        box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
-        color: green;
-        cursor: pointer;
-        display: inline-block;
-        font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
-        padding: 7px 20px;
-        text-align: center;
-        text-decoration: none;
-        transition: all 250ms;
-        border: 0;
-        font-size: 16px;
-        user-select: none;
-        -webkit-user-select: none;
-        touch-action: manipulation;
-    }
 
-    .button-33:hover {
-        box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
-        transform: scale(1.05) rotate(-1deg);
-    }
 
+
+/* CSS */
+.button-30 {
+  align-items: center;
+  margin-top: 30px;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Aeonik' sans-serif;
+  height: 40px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+	#progress { 
+                display: none;
+                color: green; 
+            }
 </style>
 
 
@@ -561,18 +591,21 @@ mysqli_close($conn);
 
 				<div class="col-lg-3 form-1">
 					<div class="footer_title">Stay Connected</div>
+					
                     <p style="color: #eee; margin-top:20px;">Join Our Mailing List</p>
 					<div class="latest_container">
 						
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-							<form class="news-letter-form" action="#" method="post">
-                  <input type="email" name="news" id="news-email" required placeholder="Your email address">
-                  <input type="submit" value="Send"  name='submit' >
+							<form class="news-letter-form" action="#" id="formm" onsubmit="event.preventDefault();" method="post">
+                  <input type="email" id="input" name="news" id="news-email" required placeholder="Your email address">
+				  <button id="showB" class="button-30" type="submit" value="Send"  name='submit'>Submit</button>
+                  <!-- <input type="" value="Send"  name='submit' > -->
                 </form>
+				
 							</div>
-							
+							<div id="progress">Thanks! Keep an eye on your inbox for updates.</div>
 						</div>
 
 						<!-- Latest -->
@@ -607,8 +640,28 @@ mysqli_close($conn);
     &copy; <script>document.write(new Date().getFullYear());</script> Copyright Glorious Vision. All rights reserved 
     </p>
      </div>
+	 <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
 <script type="text/javascript">
-   
+	
+		$("form").submit(function(check){
+  $.post($(this).attr("action"), $(this).serialize());
+ 
+  return false;
+
+ 
+}
+ 
+);
+
+$('#showB').click(function(){
+	$('#progress').show();
+    $('#formm').hide();
+ $('#formm').submit();
+});
+	
+ 
 </script>
 
 	

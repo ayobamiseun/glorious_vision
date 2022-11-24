@@ -52,7 +52,7 @@ body {
   <!-- <h3 style="margin-bottom: 16px;">Sawari Ogo Mi</h3> -->
   <div id="hero" class="animate__animated animate__backInUp animate__delay-2s">
         <a href="abouto.php" class="btn-menu"><i class="fa-solid fa-circle-info" style="margin-right: 9px;"></i> About Us</a>
-        <a href="" class="btn-book">Our Ministry</a>
+        <a href="" class="btn-book"  style="background:transparent; color:lightyellow; font-weight:700;">Join Us</a>
 
      </div>
   <div class="down">

@@ -40,10 +40,13 @@ require_once './includes/header.php'
 
               <p  style="color: #333 !important; font-size: 17px;"  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda nisi quia eaque. Unde incidunt optio velit obcaecati dolore aperiam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam quas quasi quod ipsum, quisquam illo labore? Aliquam sapiente molestias omnis itaque, est sit libero distinctio tempora iste dolorem, unde repellendus?.</p>
+     data-aos-duration="500">The Nigeria branch of the glorious vision was established on the 23rd of July 2010. The glorious vision international ministries have her Nigeria branch in Ibadan which doubles as her headquarters overseen by our spiritual leader and mother lady evangelist Maria
+Adegunloye.  The glorious vision ministry AKA Sawari ogo mi(discover my glory) United Kingdom branch was established on 23rd of July 2019.  </p>
               <p style="color: #333 !important; font-size: 17px;"  data-aos="fade-down"
      data-aos-easing="linear"
-     data-aos-duration="500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam in ut rem pariatur aliquid fugiat Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti illo vero porro dolores beatae, quam quae officiis quibusdam a necessitatibus...</p>
+     data-aos-duration="500">The glorious vision UK is located in Glasgow as a registered charitable organization.  The charity branch of the ministry help positively in every way to
+Cater for the needy through her provision of food bank and other Household provisions at low and no cost. 
+</p>
             </div>
           </div>
         </div>
@@ -57,8 +60,7 @@ require_once './includes/header.php'
               <p  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="500">
-                To Provide in an increasingly profitable manner, Radio broadcast service that will inform, inspire and Influencia all individuals in its coverage area and the world at large to live successful, meaningful and impactful lives.
-              </p>
+     “Our mission is to continue helping through our religious and charity works; in doing so, May we continue to be a channel of blessings and healing to Nigeria, Glasgow, the United Kingdom, and the world amen!” Shalom   </p>
            </div>
 
            <div class="col-md-6">
@@ -66,7 +68,7 @@ require_once './includes/header.php'
               <p  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="500">
-                To be the most valued, vital and vibrant media platforms driving and promoting positive family values and creating successful individuals and success in it's coverage area and the world at large.
+     “Our vision is to witness God healing our land”.
               </p>
            </div>
 
@@ -80,7 +82,7 @@ require_once './includes/header.php'
             <div class="row justify-content-center">
               <div class="col-lg-6">
                 <h2 class="display-4">Our Ministers</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint sed, fugit distinctio ad eius itaque deserunt doloribus harum excepturi laudantium sit officiis et eaque blanditiis. Dolore natus excepturi recusandae.</p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sint sed, fugit distinctio ad eius itaque deserunt doloribus harum excepturi laudantium sit officiis et eaque blanditiis. Dolore natus excepturi recusandae.</p> -->
               </div>
             </div>
           </div>
@@ -98,15 +100,19 @@ require_once './includes/header.php'
             <img src="assets/img/adegunloye.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Pastor Mrs ruth Adegunloye</h4>
             <span class="d-block mb-3 text-uppercase">Pastor</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+            <p>She is married to Pastor Oluwadare Adegunloye and has succeessfully completed her Bible Training course. She has also undergone Discipleship training of the Ministry and has been an assistant to Pastor 
+              Pastor Oluwadare Adegunloye TGIVM in the ministries. She is a mother to 7 children and is a business owner of Da Ruth Services. <br>
+              Other area she serves in the ministry includes; Leader of the Glorious Vision International Women and Treasurer of the ministries. 
+            </p>
           </div>
           <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="500">
             <img src="assets/img/chr.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Evangelist Christiana Ifedayo</h4>
-            <span class="d-block mb-3 text-uppercase">Pastor</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+            <span class="d-block mb-3 text-uppercase">Evangelist</span>
+            <p>She is married and has been the Ministry's Choir Leader and an Acting Evangelist. <br>
+            She has succeessfully completed her Training of Discipleship in the Ministry and has been a good role model for young children in the church.</p>
           </div>
           <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
      data-aos-easing="linear"
@@ -114,7 +120,10 @@ require_once './includes/header.php'
             <img src="assets/img/mathe.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Deaconess Vulyewa Mathe</h4>
             <span class="d-block mb-3 text-uppercase">Deaconess</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+            <p>
+              She has succeessfully completed her Training of Discipleship and she is married with 2 children. <br>
+              she has been serving as an acting Sunday Service Co-ordinator, an an Acting Secretary of the church and a fully committed member of the ministry. 
+            </p>
           </div>
           <div class="col-lg-4 text-center mb-5"  data-aos="fade-down"
      data-aos-easing="linear"
@@ -122,7 +131,10 @@ require_once './includes/header.php'
             <img src="assets/img/samuel.jpeg" alt="" class="img-fluid rounded-circle w-50 mb-4">
             <h4>Deacon Samuel Ifedayo</h4>
             <span class="d-block mb-3 text-uppercase">Deacon</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, perspiciatis repellat maxime, adipisci non ipsam at itaque rerum vitae, necessitatibus nulla animi expedita cumque provident inventore? Voluptatum in tempora earum deleniti, culpa odit veniam, ea reiciendis sunt ullam temporibus aut!</p>
+            <p>
+              He is married and has been serving as the Ministry's Sunday school teacher. He has undergone immense Training in Discipleship. He is a highly gifted and commkitted member of the church. <br>
+              He studied Political Science and is presently pursuing his Masters Degree in Glasgos Caledonian University.
+            </p>
           </div>
           <!-- <div class="col-lg-4 text-center mb-5">
             <img src="assets/img/person-5.jpg" alt="" class="img-fluid rounded-circle w-50 mb-4">

@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <!-- <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
 </head>
 
 <style>
@@ -47,8 +42,7 @@
 .chefs .member .member-info {
   position: absolute;
   bottom: -80px;
-  left: 20px;
-  right: 20px;
+  width:100%;
   background: #fff;
   padding: 20px 0;
   color: #433f39;

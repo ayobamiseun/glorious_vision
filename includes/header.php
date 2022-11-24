@@ -15,21 +15,7 @@
   <link href="./assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<style>
-    * {
-  margin: 0;
-  padding: 0;
-  /* box-sizing: border-box; */
-}
-body{
-    /* background-color: thistle; */
- 
-}
 
-
-
-
-</style>
 <body>
     <nav>
         <div class="logo">
@@ -40,7 +26,7 @@ body{
             <li><a href="./abouto.php">About</a></li>
 
             <li><a href="./sermon.php">Sermons</a></li>      
-            <li><a href="./sermon.php">Pastor's Message</a></li>    
+            <li><a href="./pastorm.php">Pastor's Message</a></li>    
             <li><a href="#">Our Community</a></li>  
             <li><a href="#">Our Youth Ministry</a></li>  
             <li><a href="./contact.php">Contact</a></li>  
@@ -74,7 +60,6 @@ body{
                 link.style.animation = `navLinkFade 0.5s ease forwards ${index /  7 + 0.5}s`
             }
         })
-
         //burger close animation
         burger.classList.toggle('toggle')
 

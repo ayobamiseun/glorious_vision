@@ -193,7 +193,7 @@
                 <a href="gallery-single.html" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
-          </div><!-- End Gallery Item -->
+          </div>
          <!-- End Gallery Item -->
 
         </div>

@@ -29,16 +29,8 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="a ssets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/variable.css">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 </head>
 <body>
@@ -259,7 +251,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
             <div class="info-item">
               <i class="bi bi-geo-alt"></i>
               <h3>Address</h3>
-              <address>A108 Adam Street, NY 535022, USA</address>
+              <address>7 Ravel Row Street, 631 5EW Glasgow</address>
             </div>
           </div><!-- End Info Item -->
 
@@ -267,7 +259,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
             <div class="info-item info-item-borders">
               <i class="bi bi-phone"></i>
               <h3>Phone Number</h3>
-              <p style="text-align: center;"><a href="tel:+44895548855">+1 5589 55488 55</a></p>
+              <p style="text-align: center;"><a href="tel:+44895548855">07452959449</a></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -275,7 +267,7 @@ if (isset($_POST['email']) && $_POST['email'] != "") {
             <div class="info-item">
               <i class="bi bi-envelope"></i>
               <h3>Email</h3>
-              <p  style="text-align: center;"><a href="mailto:info@example.com">info@example.com</a></p>
+              <p  style="text-align: center;"><a href="mailto:info@example.com">info@gloriousvision.co.uk</a></p>
             </div>
           </div><!-- End Info Item -->
 
@@ -313,7 +305,7 @@ endif;
 
   </main>
   
-  <?php include("./footer.php")?>
+  <?php include("./includes/footer.php")?>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>

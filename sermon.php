@@ -61,10 +61,6 @@
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
         <h2>Sermons</h2>
-        <!-- <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>About</li>
-        </ol> -->
 
       </div>
     </div>
@@ -73,7 +69,7 @@
          <div class="container">
             <div class="section-title">
             <h2 class="our_text">Our Sermons</h2>
-            <!-- <p class="ipsum_text">Check out our sermons</p> -->
+
             </div>
        
            
