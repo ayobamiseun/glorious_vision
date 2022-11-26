@@ -1,6 +1,6 @@
 
 <?php 
-// include('./includes/header.php');
+
 require_once './includes/header.php'
 ?>
 <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
@@ -10,7 +10,6 @@ require_once './includes/header.php'
    
 <div class="breadcrumbs d-flex align-items-center" style="background-image: url('./images/whoship1.jpg') ;">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
-
         <h2>About</h2>
         <!-- <ol>
           <li><a href="index.html">Home</a></li>
