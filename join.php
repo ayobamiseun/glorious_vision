@@ -13,8 +13,8 @@
 }
 
 .call-to-action {
-  background: url("images/worship.jpg") center center no-repeat;
-  background-size: cover;
+  /* background: url("images/worship.jpg") center center no-repeat;
+  background-size: cover; */
   /* background-color: grey; */
   padding: 60px 0;
   position: relative;

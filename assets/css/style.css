@@ -103,6 +103,12 @@ a {
   background: #6DCFF6;
   z-index: -1;
 }
+.get-started .php-email-form h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 .chefs .member h4 {
   font-weight: 800;
   margin-bottom: 10px;
