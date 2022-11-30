@@ -1,3 +1,28 @@
+<?php 
+
+include "./includes/connect.php";
+ 
+// Escape user inputs for security
+$name = mysqli_real_escape_string($conn, $_POST['name']);
+$email = mysqli_real_escape_string($conn, $_R['email']);
+$phone = mysqli_real_escape_string($conn, $_R['phone']);
+$message = mysqli_real_escape_string($conn, $_R['message']);
+// Check connection
+
+if($conn === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
+}
+// Attempt insert query execution
+$sql = "INSERT INTO persons (first_name, last_name, email) VALUES ('Peter', 'Parker', 'peterparker@mail.com')";
+if(mysqli_query($conn, $sql)){
+    echo "Records inserted successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
+}
+ 
+// Close connection
+mysqli_close($conn);
+?>
 <!DOCTYPE html>
 <html lang="en">
 

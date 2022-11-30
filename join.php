@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,7 +98,7 @@
           <div class="col-lg-8 text-center">
             <h3>Join Our Bible Study Group!</h3>
             <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="contact.php">
+            <a href="jn.php">
             <button class="button-33" role="button">Join Today</button>
             </a>
            
