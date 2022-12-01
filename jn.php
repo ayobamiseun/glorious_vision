@@ -1,36 +1,45 @@
 <?php 
-
 include "./includes/connect.php";
- 
-// Escape user inputs for security
-$name = mysqli_real_escape_string($conn, $_POST['name']);
-$email = mysqli_real_escape_string($conn, $_R['email']);
-$phone = mysqli_real_escape_string($conn, $_R['phone']);
-$message = mysqli_real_escape_string($conn, $_R['message']);
-// Check connection
 
-if($conn === false){
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+$link =  mysqli_connect("localhost","root","","gloriousVision");
+ 
+// Check connection
+if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
+ 
+// Escape user inputs for security
+$_REQUEST['name']= "";
+$_REQUEST['email'] = "";
+$_REQUEST['phone'] = "";
+$_REQUEST['message'] = "";
+
+$name = mysqli_real_escape_string($link, $_REQUEST['name']);
+$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+$phone = mysqli_real_escape_string($link, $_REQUEST['phone']);
+$message = mysqli_real_escape_string($link, $_REQUEST['message']);
+ 
+
 // Attempt insert query execution
-$sql = "INSERT INTO persons (first_name, last_name, email) VALUES ('Peter', 'Parker', 'peterparker@mail.com')";
-if(mysqli_query($conn, $sql)){
-    echo "Records inserted successfully.";
+$sql = "INSERT INTO Join (name, email, phone, message) VALUES ('$name', '$email', '$phone', '$message')";
+ini_set ('display_errors', 1);
+ini_set ('display_startup_errors', 1);
+error_reporting (E_ALL);
+if(mysqli_query($link, $sql)){
+    echo "Records added successfully.";
 } else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($conn);
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
 }
  
 // Close connection
-mysqli_close($conn);
+// mysqli_close($link);
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
-<?php
 
-include "./includes/header.php"
-
-?>
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
   <!-- animate css -->
