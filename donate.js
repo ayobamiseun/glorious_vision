@@ -1,5 +1,5 @@
 (function() {
-  var stripe = Stripe('pk_test_51Lws3MIqnO3mZ0sEdSmu50spfzunGm8XIdCHdsmaidTtudjq2M57A0J2xur3v4NJvilFJvxFSwGB0ogtBsvi0lKu00P4RTUXTd');
+  var stripe = Stripe('');
 
   var cause = document.getElementById('cause');
   var amount = document.getElementById('amount');

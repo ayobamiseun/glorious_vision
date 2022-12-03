@@ -1,13 +1,21 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
+   
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+  <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
+  <!-- animate css -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
 
 </head>
 <style>
     .call-to-action {
+  /* background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8));
+   */
+  /* background: lightgray; */
   background: #f5f6f7;
     
   background-size: cover;
@@ -15,8 +23,8 @@
 }
 
 .call-to-action {
-  /* background: url("images/worship.jpg") center center no-repeat;
-  background-size: cover; */
+  /* background: url("images/worship.jpg") center center no-repeat; */
+  /* background-size: cover; */
   /* background-color: grey; */
   padding: 60px 0;
   position: relative;
@@ -36,12 +44,14 @@
   color: darkslategray;
   font-size: 28px;
   font-weight: 700;
+    letter-spacing: 0.08rem;
 }
 
 .call-to-action p {
   color: darkslategray;
   text-align: justify;
   font-family: var(--font-primary);
+    letter-spacing: 0.08rem;
 }
 
 .call-to-action .cta-btn {
@@ -97,11 +107,13 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h3>Join Our Bible Study Group!</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="jn.php">
-            <button class="button-33" role="button">Join Today</button>
-            </a>
+            <p>Join a friendship circle of true christians always ready to study and discuss the word of God, causing you to grow spiritually.
+Joining a Bible Study Group is a representation of oneself into mini family inside the big family, the church. Your bible study group is responsible for joint prayers, one on one counselling with God-minded Christians and growth.</p>
            
+            <a href="jn.php"> <button class="button-33" role="button">
+           Join Today
+            </button>
+            </a>
           </div>
         </div>
 

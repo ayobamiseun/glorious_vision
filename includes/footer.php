@@ -434,7 +434,7 @@ mysqli_close($conn);
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="music" style="">
+								<a href="#" style="">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -457,7 +457,7 @@ mysqli_close($conn);
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="podcasts">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -478,7 +478,7 @@ mysqli_close($conn);
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="blog">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -508,7 +508,7 @@ mysqli_close($conn);
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -529,7 +529,7 @@ mysqli_close($conn);
 						<!-- Latest -->
 						<div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -548,7 +548,7 @@ mysqli_close($conn);
 						</div>
                         <div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">
@@ -568,7 +568,7 @@ mysqli_close($conn);
 
                         <div class="latest">
 							<div class="latest_title_container d-flex flex-row align-items-start justify-content-start">
-								<a href="">
+								<a href="#">
 									<div class="d-flex flex-row align-items-start justify-content-start">
 										<div class="latest_play">
 											<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 714 714" style="enable-background:new 0 0 714 714;" xml:space="preserve">

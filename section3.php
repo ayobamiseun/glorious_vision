@@ -2,10 +2,7 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  
   <!-- fonts awesome -->
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.0-web/webfonts">
@@ -148,7 +145,7 @@
             <div class="icon"><i class="bi bi-book"></i></div>
             <h4 class="title"><a href="">Exortation</a></h4>
             <p class="description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit optio doloremque quia dolorum voluptates magnam ex dolore, velit dignissimos culpa!
+             Pastor Oluwadare Adegunloye, Our Man of God, and other graced brethren encourage by the holy spirit through words of faith preached at services. These words guide you through your daily activities and see that you are perfectly in sync with the things of God.2 Timothy 3:16
             </p>
           </div>
         </div>
@@ -157,7 +154,8 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             <div class="icon"><i class="bi bi-music-note-beamed"></i></div>
             <h4 class="title"><a href="">Praise worship</a></h4>
-            <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor molestias, quisquam cumque doloribus libero excepturi!</p>
+            <p class="description">John 4:24: "God is spirit, and those who worship him must worship in spirit and truth.”
+The church encourages worship of God with songs of Worship and Praises, teaching its members to worship rightly.</p>
           </div>
         </div>
 
@@ -165,7 +163,8 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
             <div class="icon"><i class="bi bi-plus-square-fill"></i></div>
             <h4 class="title"><a href="">Prayer</a></h4>
-            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla et suscipit iure ullam fuga? Odit, reprehenderit. Accusamus.</p>
+            <p class="description">The bible teaches to pray without season as written in 1 Thessalonians 5:17. The church organizes prayer meetings where saints gather to make power available to cause change effective on challenges they might be passing.
+.</p>
           </div>
         </div>
 
@@ -173,7 +172,7 @@
           <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="fas fa-dna"></i></div>
             <h4 class="title"><a href="">couseling</a></h4>
-            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nisi, corporis temporibus debitis dolor consequuntur? Numquam!</p>
+            <p class="description">In times, trials and temptations arise and seem somewhat challenging, Or when it feels like the devil encroaches on your mind it is expedient to go to elders of the church who through the holy spirit  led to say only the right things to guide us through that phase unto victory Psalm 147:5Bible</p>
           </div>
         </div>
 

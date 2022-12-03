@@ -23,7 +23,7 @@
         </div>
         <ul class="nav-links">
             <li><a href="./index.php">Home</a></li>
-            <li><a href="./abouto.php">About</a></li>
+            <li><a href="./about.php">About</a></li>
 
             <li><a href="./sermon.php">Sermons</a></li>      
             <li><a href="./pastorm.php">Pastor's Message</a></li>    

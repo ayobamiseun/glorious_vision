@@ -31,7 +31,7 @@
   include("./pages/who-we-are.php");
   include("./section3.php");
   include("./img.php");
-  include("./about.php");
+  include("./aboutt.php");
 
   include("./join.php");
   include("./includes/footer.php");
