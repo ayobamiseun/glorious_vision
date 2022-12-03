@@ -29,11 +29,11 @@
 
 
   include("./pages/who-we-are.php");
-  include("./section3.php");
-  include("./img.php");
-  include("./aboutt.php");
+  include("./includes/section3.php");
+  include("./includes/img.php");
+  include("./includes/aboutt.php");
 
-  include("./join.php");
+  include("./includes/join.php");
   include("./includes/footer.php");
 
   include('./includes/top.php')
